@@ -1,0 +1,78 @@
+/* Base css */
+body{
+    background-color: 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext');
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+   font-family: 'Lato', sans-serif;
+   font-size: 15px;
+   .color: #333333;
+   line-height: 1.8;
+}
+html, body{
+    height: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+.service-bg img {
+    width: 100%;
+}
+.single-service-item {
+    display: block;
+    box-shadow: 0 0 4px #666;
+    margin-bottom: 30px;
+}
+
+
+
+.single-service-item h2 {
+    color: #fff;
+    background: #6A1C0C;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.single-service-item.fake-service {
+    position: relative;
+}
+
+.fake-service .service-bg, .fake-service h2 {
+    opacity: 0;
+}
+
+.service-cta {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.service-cta-inner {
+    height: 100%;
+    width: 100%;
+    background: #3370b7;
+}
+
+.service-cta-wrap {
+    vertical-align: middle;
+    text-align: center;
+    padding: 20px;
+}
+
